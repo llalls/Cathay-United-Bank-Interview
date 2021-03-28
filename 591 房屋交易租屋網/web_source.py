@@ -95,7 +95,7 @@ def writeToMongo(house_detail):
 
     client = MongoClient()                      # MongoDB: Client of LocalHost
     database = client["HouseDB"]                # MongoDB: Database Name
-    collection = database["HouseCollection"]    # MongoDB: Table Name
+    collection = database["HouseCollection"]    # MongoDB: Collection Name
     
     columns_name = ['info', 'info_identity', 'phone', 'room_type', 'status', 'sex', 'addr']
     house_db = pd.DataFrame()
