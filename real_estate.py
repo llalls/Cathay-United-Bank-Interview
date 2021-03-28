@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-
+# check the number size of floor from chinese language
 def total_floor_check(floor):
     standard = '十三'
     chinese_numbers = ['十', '一', '二', '三', '四', 
