@@ -148,10 +148,5 @@ def add_HouseInfo():
         return resp
 
 
-
-
-
-# github change testing
-
 if __name__ == "__main__":
     app.run(debug=True)
